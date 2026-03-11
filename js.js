@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentRotation = 0;
     let isSpinning = false;
 
-    const winPrizes = ["5 гривень" ];
+    const winPrizes = ["5 гривень", "Пирожок", "Печиво" ];
     const losePhrases = ["Майже!", "Спробуй ще 🎰", "Казино в плюсі", "Не сьогодні..."];
 
     spinBtn.addEventListener("click", () => {
@@ -53,4 +53,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         }, { once: true });
     });
+
 });
